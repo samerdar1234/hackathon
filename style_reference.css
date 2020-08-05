@@ -26,12 +26,16 @@ nav a:hover {
     color: red;
 }
 
+/*Sets the big container to move in reference
+to your other elements*/
 .container {
-    background-color: red;
+    background-image: url("knitting.JPG");
     position: relative;
 }
 
-#footer {
+/*The little container will have a fixed position
+inside of the larger container*/
+#child-container {
     position: absolute;
  
 }

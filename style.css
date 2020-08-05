@@ -1,0 +1,45 @@
+#head {
+    background-color: #7D90A2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+.bg-color {
+    background-color: #7D90A2 ;
+}
+
+
+.link_color {
+    color:white;
+}
+
+
+.active_tab {
+    background-color: #BCF5F9;
+    color: #4D6D9A;
+}
+
+
+nav a:hover {
+    background-color: #5F6366;
+    color: white;
+}
+
+/*Sets the big container to move in reference
+to your other elements*/
+.container {
+    position: relative;
+}
+
+/*The little container will have a fixed position
+inside of the larger container. So the larger container
+will still move around on the page and the little container
+will move with it, but inside the large container the child
+container is fixed*/
+#child-container {
+    position: absolute;
+ 
+}

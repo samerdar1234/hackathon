@@ -1,0 +1,32 @@
+body {
+    background-image: url(https://images.homedepot-static.com/productImages/0c87d10f-8177-494d-8e36-54da063afb10/svn/arabescus-carrara-marble-stonemark-marble-countertops-p-rsl-abscra-3x3-64_1000.jpg);
+}
+
+h1 {
+text-align: center;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    text-indent: 12px;
+}
+
+div {
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#footer {
+width: 100%;
+z-index: 999;
+position:absolute;
+bottom: 1px;
+background-color: black;
+color: white;
+
+}
+
+.container {
+position: relative;
+margin-left: -16px;
+padding-bottom: 10px;
+}

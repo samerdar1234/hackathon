@@ -12,13 +12,13 @@ has a white text color*/
 }
 
 /* This class is only applied to the current page you are on, it 
-changes only the color of the current page */
+changes only the color of the current page link and the text color */
 .active_tab {
     background-color: green;
     color: blue;
 }
 
-/* For every a tag that is inside a nav tag, 
+/* For every <a> tag that is inside a nav tag, 
 by using the CSS keyword ":hover", I am saying that I want that
 <a> tag to take on the characteristics defined inside of this blurb */
 nav a:hover {
@@ -33,7 +33,10 @@ to your other elements*/
 }
 
 /*The little container will have a fixed position
-inside of the larger container*/
+inside of the larger container. So the larger container
+will still move around on the page and the little container
+will move with it, but inside the large container the child
+container is fixed*/
 #child-container {
     position: absolute;
  

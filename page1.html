@@ -13,15 +13,22 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 
-<nav class="nav nav-pills flex-column flex-sm-row">
-  <a class="flex-sm-fill text-sm-center nav-link active" href="#">Active</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
-  <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
-  <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-</nav>
     </head>
-<body>
-    
+<body> 
+    <header id="head">
+            <h1>Mental Health</h1>
+            <p><i>You're not alone</i></p>
+        </header>
+        <!-- The flex stuff makes the navbar responsive
+        ".active_tab" class changes the color of the current tab you're on
+        "nav-justified" centers the text inside of the navbar, "nav-item" applies the justifying
+        "bg-color" applies a background color to the entire navbar -->
+        <nav class="nav nav-justified flex-column flex-sm-row bg-color">
+            <a class="flex-sm-fill text-sm-center nav-item nav-link link_color active_tab" href="#">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-item nav-link link_color" href="page1.html">About</a>
+            <a class="flex-sm-fill text-sm-center nav-item nav-link link_color" href="page2.html">For Students</a>
+        </nav>
+         
 <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Mental_Disorder_Silhouette.png" width="100%">
     <br>
@@ -49,7 +56,7 @@
     of mental health issues. A few very common ones are anxiety disorders, mood disorders,
     Obsessive-Compulsive Disorder, Eating disorders, etc. if you would like to know more 
     about these disorders visit, <a href="https://www.mentalhealth.gov/what-to-look-for">"Mental health.gov."</a></p>
-</div>
+</div> 
   
 <div>
     <h3><b>Early signs (These are a few out of many more):</b></h3>

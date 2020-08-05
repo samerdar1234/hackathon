@@ -1,5 +1,5 @@
 #head {
-    background-color: #4D6D9A;
+    background-color: #7D90A2;
     color: white;
     text-align: center;
     padding: 10px;
@@ -10,7 +10,7 @@
 This changes the background color of the entire
 navbar*/
 .bg-color {
-    background-color: #4D6D9A ;
+    background-color: #7D90A2 ;
 }
 
 /* I applied this class to each of the a tags so each link 
@@ -22,7 +22,7 @@ has a white text color*/
 /* This class is only applied to the current page you are on, it 
 changes only the color of the current page link and the text color */
 .active_tab {
-    background-color: #EDB5BF;
+    background-color: #BCF5F9;
     color: #4D6D9A;
 }
 

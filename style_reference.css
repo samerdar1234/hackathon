@@ -29,7 +29,6 @@ nav a:hover {
 /*Sets the big container to move in reference
 to your other elements*/
 .container {
-    background-image: url("knitting.JPG");
     position: relative;
 }
 

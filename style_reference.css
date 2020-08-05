@@ -26,4 +26,14 @@ nav a:hover {
     color: red;
 }
 
+.container {
+    background-color: red;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+ 
+}
+
 

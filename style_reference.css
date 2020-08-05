@@ -6,29 +6,23 @@
     font-family: 'Abril Fatface', cursive;
 }
 
-/* I applied this class to the nav tag 
-This changes the background color of the entire
-navbar*/
+
 .bg-color {
     background-color: #7D90A2 ;
 }
 
-/* I applied this class to each of the a tags so each link 
-has a white text color*/
+
 .link_color {
     color:white;
 }
 
-/* This class is only applied to the current page you are on, it 
-changes only the color of the current page link and the text color */
+
 .active_tab {
     background-color: #BCF5F9;
     color: #4D6D9A;
 }
 
-/* For every <a> tag that is inside a nav tag, 
-by using the CSS keyword ":hover", I am saying that I want that
-<a> tag to take on the characteristics defined inside of this blurb */
+
 nav a:hover {
     background-color: #5F6366;
     color: white;

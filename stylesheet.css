@@ -1,13 +1,12 @@
 
-#body2
-{
-background-image: url(https://wallpaperaccess.com/full/695403.jpg);
- 
-}
 body {
     background-image: url(https://images.homedepot-static.com/productImages/0c87d10f-8177-494d-8e36-54da063afb10/svn/arabescus-carrara-marble-stonemark-marble-countertops-p-rsl-abscra-3x3-64_1000.jpg);
 }
 
+#body2
+{
+background-image: url(https://wallpaperaccess.com/full/695403.jpg);
+}
 h1 {
 text-align: center;
 font-family: 'Open Sans Condensed', sans-serif;
@@ -52,30 +51,20 @@ padding-bottom: 65px;
     text-align: center;
 }
 
-
-/* I applied this class to the nav tag 
-This changes the background color of the entire
-navbar*/
 .bg-color {
     background-color: #7D90A2 ;
 }
 
-/* I applied this class to each of the a tags so each link 
-has a white text color*/
 .link_color {
     color:white;
 }
 
-/* This class is only applied to the current page you are on, it 
-changes only the color of the current page link and the text color */
+
 .active_tab {
     background-color: #BCF5F9;
     color: #4D6D9A;
 }
 
-/* For every <a> tag that is inside a nav tag, 
-by using the CSS keyword ":hover", I am saying that I want that
-<a> tag to take on the characteristics defined inside of this blurb */
 nav a:hover {
     background-color: #5F6366;
     color: white;

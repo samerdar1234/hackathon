@@ -27,14 +27,18 @@ color: white;
 text-align: center;
 }
 
-.container {
+.container2 {
 position: relative;
 margin-left: -16px;
 margin-bottom: -60px;
 padding-bottom: 65px;
 }
 
-
+#head {
+    background-color: #7D90A2;
+    padding: 10px;
+    text-align: center;
+}
 /* I applied this class to the nav tag 
 This changes the background color of the entire
 navbar*/
@@ -63,18 +67,7 @@ nav a:hover {
     color: white;
 }
 
-/*Sets the big container to move in reference
-to your other elements*/
 .container {
-    position: relative;
-}
-
-/*The little container will have a fixed position
-inside of the larger container. So the larger container
-will still move around on the page and the little container
-will move with it, but inside the large container the child
-container is fixed*/
-#child-container {
-    position: absolute;
- 
+    background-image: url(https://avalon.fabiosacdn.com/image/41c12367-8cb3-49fa-83da-55d1e5d42f35.jpg);
+    background-size: cover;
 }

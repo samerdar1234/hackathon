@@ -1,3 +1,8 @@
+#body2
+{
+background-image: url(https://wallpaperaccess.com/full/695403.jpg);
+ 
+}
 body {
     background-image: url(https://images.homedepot-static.com/productImages/0c87d10f-8177-494d-8e36-54da063afb10/svn/arabescus-carrara-marble-stonemark-marble-countertops-p-rsl-abscra-3x3-64_1000.jpg);
 }
@@ -20,19 +25,32 @@ width: 100%;
 z-index: 999;
 position: fixed;
 left: 0;
+top: 400px;
 bottom: 0;
 background-color: black;
 opacity: 70%;
 color: white;
 text-align: center;
+transition-property: height;
 }
 
-.container {
+#footer:hover {
+top: -100px;
+}
+
+.container2 {
 position: relative;
 margin-left: -16px;
 margin-bottom: -60px;
 padding-bottom: 65px;
 }
+
+#head {
+    background-color: #7D90A2;
+    padding: 10px;
+    text-align: center;
+}
+
 
 /* I applied this class to the nav tag 
 This changes the background color of the entire
@@ -62,18 +80,26 @@ nav a:hover {
     color: white;
 }
 
-/*Sets the big container to move in reference
-to your other elements*/
-.container {
-    position: relative;
+.jumbotron {
+    background-image: url(https://avalon.fabiosacdn.com/image/41c12367-8cb3-49fa-83da-55d1e5d42f35.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    margin: 20px;
+    color: black;
 }
 
-/*The little container will have a fixed position
-inside of the larger container. So the larger container
-will still move around on the page and the little container
-will move with it, but inside the large container the child
-container is fixed*/
-#child-container {
-    position: absolute;
- 
+.jumbotron p {
+    background-color: rgba(97, 98, 100, 0.6)
+}
+
+#pic {
+    position: fixed;
+}
+.steve{
+    background-color: pink;
+    opacity: 70%;
+    color:white;
+    padding:10px;
+    margin: 10px;
 }

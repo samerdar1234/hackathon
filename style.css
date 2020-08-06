@@ -28,18 +28,21 @@ nav a:hover {
     color: white;
 }
 
-/*Sets the big container to move in reference
-to your other elements*/
-.container {
-    position: relative;
+#footer {
+width: 100%;
+z-index: 999;
+position: fixed;
+left: 0;
+bottom: 0;
+background-color: black;
+opacity: 70%;
+color: white;
+text-align: center;
 }
 
-/*The little container will have a fixed position
-inside of the larger container. So the larger container
-will still move around on the page and the little container
-will move with it, but inside the large container the child
-container is fixed*/
-#child-container {
-    position: absolute;
- 
+.container {
+position: relative;
+margin-left: -16px;
+margin-bottom: -60px;
+padding-bottom: 65px;
 }

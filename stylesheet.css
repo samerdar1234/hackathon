@@ -20,7 +20,7 @@ div {
 font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#footer {
+#foot {
     width: 100%;
     z-index: 999;
     position: fixed;
@@ -34,7 +34,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     transition-property: height;
 }
 
-#footer:hover {
+#foot:hover {
     top: -100px;
 }
 

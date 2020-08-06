@@ -20,11 +20,17 @@ width: 100%;
 z-index: 999;
 position: fixed;
 left: 0;
+top: 400px;
 bottom: 0;
 background-color: black;
 opacity: 70%;
 color: white;
 text-align: center;
+transition-property: height;
+}
+
+#footer:hover {
+top: -100px;
 }
 
 .container2 {
@@ -39,6 +45,8 @@ padding-bottom: 65px;
     padding: 10px;
     text-align: center;
 }
+
+
 /* I applied this class to the nav tag 
 This changes the background color of the entire
 navbar*/

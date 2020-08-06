@@ -1,3 +1,4 @@
+
 #body2
 {
 background-image: url(https://wallpaperaccess.com/full/695403.jpg);
@@ -21,21 +22,21 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #footer {
-width: 100%;
-z-index: 999;
-position: fixed;
-left: 0;
-top: 400px;
-bottom: 0;
-background-color: black;
-opacity: 70%;
-color: white;
-text-align: center;
-transition-property: height;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 400px;
+    bottom: 0;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    text-align: center;
+    transition-property: height;
 }
 
 #footer:hover {
-top: -100px;
+    top: -100px;
 }
 
 .container2 {

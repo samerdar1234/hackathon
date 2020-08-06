@@ -34,14 +34,11 @@ margin-bottom: -60px;
 padding-bottom: 65px;
 }
 
-<<<<<<< HEAD
 #head {
     background-color: #7D90A2;
     padding: 10px;
     text-align: center;
 }
-=======
->>>>>>> 2e378a818e1e53dfb4c2250198c00812d2f33b3a
 /* I applied this class to the nav tag 
 This changes the background color of the entire
 navbar*/
@@ -73,4 +70,6 @@ nav a:hover {
 .container {
     background-image: url(https://avalon.fabiosacdn.com/image/41c12367-8cb3-49fa-83da-55d1e5d42f35.jpg);
     background-size: cover;
+    text-align: center;
+    background-position: center;
 }

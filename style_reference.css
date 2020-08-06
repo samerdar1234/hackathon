@@ -50,3 +50,22 @@ container is fixed*/
     position: absolute;
  
 }
+
+#footer {
+width: 100%;
+z-index: 999;
+position: fixed;
+left: 0;
+bottom: 0;
+background-color: black;
+opacity: 70%;
+color: white;
+text-align: center;
+}
+
+.container2 {
+position: relative;
+margin-left: -16px;
+margin-bottom: -60px;
+padding-bottom: 65px;
+}

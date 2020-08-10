@@ -20,7 +20,7 @@ div {
 font-family: 'Open Sans Condensed', sans-serif;
 }
 
-#foot {
+#footer {
     width: 100%;
     z-index: 999;
     position: fixed;
@@ -34,7 +34,7 @@ font-family: 'Open Sans Condensed', sans-serif;
     transition-property: height;
 }
 
-#foot:hover {
+#footer:hover {
     top: -100px;
 }
 
@@ -47,8 +47,10 @@ padding-bottom: 65px;
 
 #head {
     background-color: #7D90A2;
-    padding: 10px;
+    color: white;
     text-align: center;
+    padding: 10px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .bg-color {
@@ -85,6 +87,7 @@ nav a:hover {
 
 #pic {
     position: fixed;
+    width: 35%;
 }
 .steve{
     background-color: pink;
